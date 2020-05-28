@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+    
+</head>
+<body>
+    <section>
+        <h2>Register</h2>
+        <form action="" name="register" onsubmit="checkInput(); return false;">
+            <div class="form-item">
+                <!-- <label for="">Username</label> -->
+                <input type="text" placeholder="Username" id="username">
+                <span id="errorusername"></span>
+            </div>
+            <div class="form-item">
+                <!-- <label for="">Email</label> -->
+                <input type="email" placeholder="Email" id="email">
+                <span id="erroremail"></span>
+            </div>
+            <div class="form-item">
+                <!-- <label for="">Phone Number</label> -->
+                <input type="text" placeholder="Phone Number" id="phone">
+                <span id="errorphone"></span>
+            </div>
+            <div class="form-item">
+                <!-- <label for="">Password</label> -->
+                <input type="password" placeholder="Password" id="password">
+                <span id="errorpassword"></span>
+            </div>
+            <div class="form-item">
+                <!-- <label for="">RePassword</label> -->
+                <input type="password" placeholder="RePassword" id="repassword">
+                <span id="errorrepassword"></span>
+            </div>
+            <div class="btn-group">
+                <a href="./Login.html" class="btn-group--aLogin">
+                    <i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;Login
+                </a>
+                <button class="btn-group--register" type="submit"><i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp;Register</button>
+            </div>
+        </form>
+    </section>
+    <script src="js/login.js"></script>
+</body>
+</html>

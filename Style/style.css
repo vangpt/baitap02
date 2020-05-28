@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #263238;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  width: 350px;
+  padding: 10px;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-item label {
+  display: block;
+  width: 100%;
+}
+
+.form-item input {
+  background-color: #263238;
+  border: none;
+  border-bottom: 2px solid #95a5a6;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.form-item input:focus {
+  font-size: 18px;
+}
+
+.form-item input:focus::-webkit-input-placeholder {
+  color: white;
+}
+
+.form-item input:focus:-ms-input-placeholder {
+  color: white;
+}
+
+.form-item input:focus::-ms-input-placeholder {
+  color: white;
+}
+
+.form-item input:focus::placeholder {
+  color: white;
+}
+
+.form-item span {
+  color: red;
+  font-style: italic;
+  font-size: 14px;
+  position: relative;
+  top: -20px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btn-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-group button {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.btn-group--aLogin {
+  background-color: #95a5a6;
+  border: none;
+  padding: 10px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.btn-group--aLogin:hover {
+  background-color: #34495e;
+}
+
+.btn-group--aRegister {
+  background-color: #e74c3c;
+  border: none;
+  padding: 10px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.btn-group--aRegister:hover {
+  background-color: #c0392b;
+}
+
+.btn-group--login {
+  background-color: #95a5a6;
+  border: none;
+}
+
+.btn-group--login:hover {
+  background-color: #34495e;
+}
+
+.btn-group--register {
+  background-color: #e74c3c;
+  border: none;
+}
+
+.btn-group--register:hover {
+  background-color: #c0392b;
+}
+/*# sourceMappingURL=style.css.map */

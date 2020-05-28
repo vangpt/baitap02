@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+    
+</head>
+<body>
+    <section>
+        <h2>Login</h2>
+        <form action="" name="register" onsubmit="return false">
+            <div class="form-item">
+                <!-- <label for="">Email</label> -->
+                <input type="email" placeholder="Email" id="email">
+                <span id="erroremail"></span>
+            </div>
+            <div class="form-item">
+                <!-- <label for="">Password</label> -->
+                <input type="password" placeholder="Password" id="password">
+                <span id="errorpassword"></span>
+            </div>
+            <div class="btn-group">
+                <a href="./Register.html" class="btn-group--aRegister">
+                    <i class="fas fa-check"></i>&nbsp;&nbsp;&nbsp;Register
+                </a>
+                <button class="btn-group--login" type="submit" onclick="checkInput()"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;Login</button>
+            </div>
+        </form>
+    </section>
+    <script src="js/login.js"></script>
+</body>
+</html>
